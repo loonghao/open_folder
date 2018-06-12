@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+
+<mainMenu>
+    <menuBar>
+        <subMenu id="Hal Menu">
+            <label>HZ Studio</label>
+            <insertBefore>help_menu</insertBefore>
+            <scriptItem id="hal_open_select_node_path">
+                <label>Open Select Node Path</label>
+                <scriptCode><![CDATA[import open_folder;reload(open_folder);open_folder.run()
+                ]]></scriptCode>
+            </scriptItem>
+        </subMenu>
+    </menuBar>
+</mainMenu>
